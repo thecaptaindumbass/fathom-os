@@ -1,0 +1,13 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Shell scripts must stay LF
+*.sh text eol=lf
+
+# Binary files
+*.png binary
+*.ico binary
+*.mp3 binary
+*.tar binary
+*.gz binary
+*.zip binary

@@ -1,0 +1,37 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build Artifacts
+*.iso
+*.img
+*.bak
+*~
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Secrets
+*.pem
+*.key
+id_rsa
+id_ed25519
+.env
+.env.*
+
+# Archives
+*.tar
+*.tar.*
+*.tgz
+*.zip
